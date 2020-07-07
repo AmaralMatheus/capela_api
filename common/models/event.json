@@ -1,0 +1,39 @@
+{
+  "name": "event",
+  "plural": "events",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "id_galeria": {
+      "type": "number",
+      "required": true
+    },
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "descritivo": {
+      "type": "string",
+      "required": true
+    },
+    "data": {
+      "type": "date",
+      "required": true
+    },
+    "data_cadastro": {
+      "type": "date",
+      "required": true
+    },
+    "ativo": {
+      "type": "boolean",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

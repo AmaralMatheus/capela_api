@@ -1,0 +1,30 @@
+{
+  "name": "reserva",
+  "plural": "reservas",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "nome": {
+      "type": "string",
+      "required": true
+    },
+    "user_id": {
+      "type": "number",
+      "required": true
+    },
+    "tipo": {
+      "type": "number",
+      "required": true
+    },
+    "cunho": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
