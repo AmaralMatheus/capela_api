@@ -1,6 +1,10 @@
 {
   "db": {
+    "host": "localhost",
+    "database": "capela",
+    "username": "root",
+    "password": "LokomiaHu3",
     "name": "db",
-    "connector": "memory"
+    "connector": "mysql"
   }
 }
